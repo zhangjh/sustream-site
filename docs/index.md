@@ -42,21 +42,6 @@ features:
 
 ---
 
-## 📸 功能预览
-
-<!-- Placeholder for Image/Video Demonstrations, similar to Suyan site -->
-<div style="text-align: center; max-width: 800px; margin: 2rem auto;">
-  <img src="/image-phone-ui-placeholder.png" alt="PureFlow UI 演示" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-  <p style="margin-top: 1rem; color: var(--vp-c-text-2);">AI 智能对话整理界面演示</p>
-</div>
-
-<div style="text-align: center; max-width: 800px; margin: 2rem auto;">
-  <img src="/image-epub-preview-placeholder.png" alt="ePub 阅读器演示" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-  <p style="margin-top: 1rem; color: var(--vp-c-text-2);">内置 ePub 电子书阅读器</p>
-</div>
-
----
-
 ## 🆚 为什么选择 PureFlow？
 
 | 维度 | ES文件浏览器 | 系统自带 | **素流 PureFlow** |
