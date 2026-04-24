@@ -28,7 +28,8 @@ export default defineConfig({
         items: [
           { text: "Pro 版 AI 引擎", link: "/guide/pro" },
           { text: "语义检索系统", link: "/guide/semantic" },
-          { text: "自动化工作流", link: "/guide/workflow" }
+          { text: "自动化工作流", link: "/guide/workflow" },
+          { text: "核心应用场景", link: "/guide/use-cases" }
         ]
       }
     ],
