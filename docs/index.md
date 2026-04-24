@@ -70,6 +70,6 @@ features:
 ---
 
 <div style="text-align: center; margin-top: 2rem;">
-  <h3>PureFlow · 简而不凡</h3>
-  <p style="opacity: 0.8; max-width: 600px; margin: 10px auto;">"素"代表干净、纯粹，"流"代表高效、流转。<br>摒弃繁杂，回归数字资产管理的本质——将你的文件毫无阻碍地转化为知识与生产力。</p>
+  <h3>素流 · 资产有灵</h3>
+  <p style="opacity: 0.8; max-width: 600px; margin: 10px auto;">“素”代表干净、克制，意指回归文件管理的纯粹本源；“流”代表高效、流转，寓意数据在端侧 AI 调度下如行云流水。<br><br><b>素位而行，流转不息。</b><br>在喧嚣的云端时代，为你守护一方纯净且智慧的数字领地。</p>
 </div>
