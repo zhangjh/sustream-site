@@ -20,6 +20,9 @@ hero:
     - theme: alt
       text: ✨ 探索全部功能
       link: /features
+    - theme: alt
+      text: 🔑 获取激活码
+      link: /guide/purchase
 
 features:
   - title: 🛡️ 纯净隐私

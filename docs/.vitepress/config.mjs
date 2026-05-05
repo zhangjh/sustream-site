@@ -83,6 +83,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "功能特性", link: "/features" },
       { text: "下载", link: "/download" },
+      { text: "获取激活码", link: "/guide/purchase" },
       {
         text: "指南",
         items: [
@@ -110,6 +111,7 @@ export default defineConfig({
           text: "进阶",
           items: [
             { text: "Pro 版 AI 引擎", link: "/guide/pro" },
+            { text: "购买激活码", link: "/guide/purchase" },
             { text: "核心应用场景", link: "/guide/use-cases" },
           ],
         },
