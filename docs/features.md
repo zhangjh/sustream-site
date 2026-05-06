@@ -44,6 +44,10 @@ head:
 
 ### ePub 阅读器
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/阅读器.webp" alt="ePub 阅读器" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
+
 原生 ePub 阅读器，沉浸式阅读体验，无需安装额外阅读应用即可打开和阅读电子书。
 
 ### PDF 查看器
@@ -73,10 +77,6 @@ head:
 </div>
 
 可视化展示存储空间占用分布，智能识别大文件和重复文件，帮助你精准定位空间占用大户，高效管理存储。
-
-### SAF 深度适配
-
-深度适配 Android Storage Access Framework，支持访问 `/Android/data/` 和 `/Android/obb/` 受限目录，满足高级用户的文件管理需求。
 
 ### Material Design 3 UI
 
@@ -119,6 +119,10 @@ Pro 版解锁 8 项 AI 智能功能，基于端侧推理和云端协作，让文
 基于 DBSCAN 算法的图片内容语义聚类，自动将相似主题的图片归类整理，无需手动建文件夹，AI 帮你智能分类。
 
 ### 智能伴读
+
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/智能伴读.webp" alt="智能伴读" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
 
 ePub 电子书智能总结，基于书籍内容进行问答互动，让阅读更高效。需配置 BYOK（自带 API Key）连接大语言模型。
 
