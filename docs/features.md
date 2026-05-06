@@ -16,6 +16,10 @@ head:
 
 ### 文件浏览与管理
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/内部存储.webp" alt="文件浏览与管理" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
+
 支持列表视图和网格视图自由切换，面包屑导航快速定位目录层级，多标签页同时打开多个目录，轻松在不同文件夹间切换操作。
 
 ### 快速分类访问
@@ -64,6 +68,10 @@ head:
 
 ### 深度存储分析
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/深度分析.webp" alt="深度存储分析" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
+
 可视化展示存储空间占用分布，智能识别大文件和重复文件，帮助你精准定位空间占用大户，高效管理存储。
 
 ### SAF 深度适配
@@ -80,17 +88,33 @@ Pro 版解锁 8 项 AI 智能功能，基于端侧推理和云端协作，让文
 
 ### 语义搜索
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/语义搜索.webp" alt="语义搜索" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
+
 基于 MobileCLIP2 模型的端侧向量化引擎，用自然语言描述即可找到图片和视频。支持中英文查询，完全离线可用，文件内容绝不出端。
 
 ### 相似图片检测
+
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/相似图片.webp" alt="相似图片检测" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
 
 智能识别近重复图片和语义相似图片并自动分组，基于分辨率、清晰度、来源目录等维度提供智能推荐保留策略，帮助你高效去重。
 
 ### 智能清理建议
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/智能清理.webp" alt="智能清理建议" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
+
 多类型智能清理建议，覆盖近重复图片、截图堆积、社交重复、连拍冗余等场景，每条建议附带风险等级和置信度评估，清理更安心。
 
 ### 智能聚合
+
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/智能聚合.webp" alt="智能聚合" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
 
 基于 DBSCAN 算法的图片内容语义聚类，自动将相似主题的图片归类整理，无需手动建文件夹，AI 帮你智能分类。
 
@@ -103,6 +127,10 @@ ePub 电子书智能总结，基于书籍内容进行问答互动，让阅读更
 AI 驱动的隐私文件扫描，自动识别身份证、银行卡、证件照等敏感文件，配合密码保护的加密存储空间，为你的隐私文件提供双重保障。
 
 ### 素流助理 AI Agent
+
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/Agent.webp" alt="素流助理 AI Agent" style="max-width: 280px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+</div>
 
 对话式文件管理助手，支持文件搜索、存储分析、相似图片查找、语义搜索、智能清理、聚类查询、文件操作共 7 个工具，用大白话下指令即可完成复杂任务。所有破坏性操作（删除、移动等）均需用户确认，安全可控。
 

@@ -42,18 +42,10 @@ features:
 <div style="text-align: center; padding: 2rem 1rem;">
   <h2>🎬 产品演示</h2>
   <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
-    <div style="width: 180px; height: 320px; border-radius: 12px; background: var(--vp-c-bg-soft); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
-      <span style="opacity: 0.5; font-size: 0.85em;">主界面截图</span>
-    </div>
-    <div style="width: 180px; height: 320px; border-radius: 12px; background: var(--vp-c-bg-soft); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
-      <span style="opacity: 0.5; font-size: 0.85em;">语义搜索截图</span>
-    </div>
-    <div style="width: 180px; height: 320px; border-radius: 12px; background: var(--vp-c-bg-soft); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
-      <span style="opacity: 0.5; font-size: 0.85em;">AI 助理截图</span>
-    </div>
-    <div style="width: 180px; height: 320px; border-radius: 12px; background: var(--vp-c-bg-soft); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
-      <span style="opacity: 0.5; font-size: 0.85em;">智能清理截图</span>
-    </div>
+    <img src="/首页.webp" alt="素流主界面" style="width: 180px; height: 320px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+    <img src="/语义搜索.webp" alt="语义搜索" style="width: 180px; height: 320px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+    <img src="/Agent.webp" alt="AI 助理" style="width: 180px; height: 320px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
+    <img src="/智能清理.webp" alt="智能清理" style="width: 180px; height: 320px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 12px rgba(0,0,0,0.1);" />
   </div>
   <p style="opacity: 0.6; font-size: 0.85em; margin-top: 0.8rem;">主界面 · 语义搜索 · AI 助理 · 智能清理</p>
   <video controls style="max-width: 100%; width: 720px; border-radius: 12px; margin-top: 1.5rem;">
