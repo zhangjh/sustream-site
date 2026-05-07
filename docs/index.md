@@ -122,3 +122,47 @@ features:
 **"素"** 代表纯净、克制——回归文件管理的本源，不收集一份数据，不推送一条广告。
 
 **"流"** 代表高效、流转——数据在端侧模型 + AI大脑调度下如行云流水，从"找文件"升级为"提问题"，从"整理文件"升级为"下指令"。
+
+---
+
+## 📰 最新动态
+
+<div class="articles-grid">
+  <div class="article-card">
+    <span class="article-tag">即将发布</span>
+    <h4>素流：AI Agent 全面升级</h4>
+    <p>13 个工具链、系统操作能力、更智能的意图理解...</p>
+  </div>
+  <div class="article-card">
+    <span class="article-tag">即将发布</span>
+    <h4>端侧 AI 如何保护你的隐私</h4>
+    <p>深入解析素流的端云协作架构与隐私红线设计...</p>
+  </div>
+  <div class="article-card">
+    <span class="article-tag">即将发布</span>
+    <h4>从手动整理到一句话搞定</h4>
+    <p>素流助理实战：用自然语言管理上万张照片...</p>
+  </div>
+</div>
+
+---
+
+## 🌿 素系列产品
+
+<div class="product-family">
+  <a href="https://suyan.zhangjh.cn" target="_blank" class="product-card">
+    <img src="/suyan-logo.webp" alt="素言 SuYan" class="product-logo" />
+    <div class="product-info">
+      <h4>素言 SuYan</h4>
+      <p>输入法效率工具</p>
+    </div>
+    <span class="product-arrow">→</span>
+  </a>
+  <div class="product-card product-card--coming">
+    <div class="product-icon">🔮</div>
+    <div class="product-info">
+      <h4>更多产品</h4>
+      <p>敬请期待...</p>
+    </div>
+  </div>
+</div>
