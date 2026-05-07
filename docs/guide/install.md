@@ -15,12 +15,7 @@ head:
 | 渠道 | 适用场景 | 链接 |
 |------|----------|------|
 | Google Play | 外网用户推荐 | [前往 Google Play](https://play.google.com/store/apps/details?id=cn.zhangjh.sustream) |
-| GitHub Releases | 全球可用，获取最新版本 | [前往 GitHub Releases](https://github.com/zhangjh/SuStream/releases) |
 | 国内加速下载 | 国内用户推荐 | [前往下载页](/download) |
-
-::: tip 提示
-国内用户如果访问 GitHub 速度较慢，建议前往[下载页](/download)获取国内加速链接。
-:::
 
 ## 权限说明
 
@@ -58,11 +53,11 @@ Android 13 及以上版本需要显式申请通知权限。素流 (PureFlow) 使
 
 ### 为什么素流 (PureFlow) 安装包这么小？
 
-素流 (PureFlow) 采用原生 Kotlin 开发，代码经过极致优化。AI 引擎相关的模型文件（如 MobileCLIP2 语义检索模型、BGE 文档检索模型等）默认不内置在安装包中，而是在您首次启用对应 AI 功能时动态下载到本地。下载完成后，这些模型将完全在设备端运行，无需再次联网。
+素流 (PureFlow) 采用原生 Kotlin 开发，代码经过极致优化。AI 引擎相关的模型文件（如 MobileCLIP2 语义检索模型、BGE 文档检索模型等）保证质量前提下，经过极致量化，并且默认不内置在安装包中，而是在您首次启用对应 AI 功能时动态下载到本地（国内apk不支持aab分发，内置在apk中）。下载完成后，这些模型将完全在设备端运行，无需再次联网。
 
 ### 如何使用 ePub 阅读器？
 
-在文件浏览器中点击任意 `.epub` 文件，素流 (PureFlow) 会自动打开内置的 ePub 阅读器。阅读器支持目录导航、字体调整等基本阅读功能。如果您已开启 Pro 版，还可以使用智能伴读功能对书籍内容进行总结和问答。
+在文件浏览器中点击任意 `.epub` 文件，素流 (PureFlow) 会自动打开内置的 ePub 阅读器。阅读器支持目录导航、记住进度等基本阅读功能。如果您已开启 Pro 版，还可以使用智能伴读功能对书籍内容进行总结和问答。
 
 ### 如何预览压缩包内容？
 

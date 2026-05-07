@@ -16,7 +16,7 @@ head:
 
 GitHub Issues 是我们首选的反馈渠道，适合提交 Bug 报告和功能建议：
 
-- **地址**：[https://github.com/zhangjh/SuStream/issues](https://github.com/zhangjh/SuStream/issues)
+- **地址**：[https://github.com/zhangjh/sustream-site/issues](https://github.com/zhangjh/sustream-site/issues)
 
 **提交 Bug 报告时，建议包含以下信息：**
 
