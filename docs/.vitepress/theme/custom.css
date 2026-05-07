@@ -125,6 +125,9 @@
   width: 720px;
   border-radius: 12px;
   margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* Agent 演示对话框 - 需要高优先级覆盖全局居中 */
