@@ -25,3 +25,135 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* 首页自定义内容区域居中 */
+.is-home .vp-doc > div {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.is-home .vp-doc h2,
+.is-home .vp-doc h3 {
+  text-align: center;
+}
+
+.is-home .vp-doc p {
+  text-align: center;
+}
+
+.is-home .vp-doc ul {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.is-home .vp-doc table {
+  display: table !important;
+  max-width: 960px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: fit-content;
+}
+
+.vp-doc > div > div > table {
+  display: table !important;
+  max-width: 960px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: fit-content;
+}
+
+.vp-doc .center-table {
+  display: table !important;
+  max-width: 960px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: fit-content;
+}
+
+@media (max-width: 768px) {
+  .is-home .vp-doc table,
+  .vp-doc > div > div > table,
+  .vp-doc .center-table {
+    width: 100% !important;
+    display: block !important;
+    overflow-x: auto;
+  }
+
+  .is-home .vp-doc table th:first-child,
+  .is-home .vp-doc table td:first-child,
+  .vp-doc .center-table th:first-child,
+  .vp-doc .center-table td:first-child {
+    white-space: nowrap;
+  }
+}
+
+.is-home .vp-doc .vp-table,
+.is-home .vp-doc div[class*="language-"],
+.is-home .vp-doc div:has(> table) {
+  max-width: 960px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.is-home .vp-doc hr {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.is-home .vp-doc blockquote {
+  text-align: left;
+}
+
+/* 产品演示区域 */
+.demo-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.demo-section .caption {
+  opacity: 0.6;
+  font-size: 0.85em;
+  margin-top: 0.8rem;
+}
+
+.demo-section .demo-video {
+  max-width: 100%;
+  width: 720px;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+}
+
+/* Agent 演示对话框 - 需要高优先级覆盖全局居中 */
+.is-home .vp-doc .agent-demo {
+  max-width: 720px;
+  margin: 1.5rem auto;
+  text-align: left;
+}
+
+.is-home .vp-doc .agent-demo p,
+.is-home .vp-doc .agent-demo blockquote,
+.is-home .vp-doc .agent-demo blockquote p,
+.is-home .vp-doc .agent-demo ol,
+.is-home .vp-doc .agent-demo ul {
+  text-align: left;
+}
+
+/* CTA 按钮 */
+.cta-button {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.cta-button .brand-btn {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  background: var(--vp-c-brand-1);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -39,7 +39,7 @@ features:
     details: 对话式文件管理，7 个工具链自动调度，用大白话下指令完成文件归类、清理、搜索等复杂任务。
 ---
 
-<div style="text-align: center; padding: 2rem 1rem;">
+<div class="demo-section">
   <h2>🎬 产品演示</h2>
   <div class="screenshot-grid">
     <img src="/首页.webp" alt="素流主界面" />
@@ -47,8 +47,8 @@ features:
     <img src="/Agent.webp" alt="AI 助理" />
     <img src="/智能清理.webp" alt="智能清理" />
   </div>
-  <p style="opacity: 0.6; font-size: 0.85em; margin-top: 0.8rem;">主界面 · 语义搜索 · AI 助理 · 智能清理</p>
-  <video controls style="max-width: 100%; width: 720px; border-radius: 12px; margin-top: 1.5rem;">
+  <p class="caption">主界面 · 语义搜索 · AI 助理 · 智能清理</p>
+  <video controls class="demo-video">
     <source src="https://your-video-url.com/demo.mp4" type="video/mp4">
     你的浏览器不支持视频播放，请<a href="https://your-video-url.com/demo.mp4">点击下载</a>观看。
   </video>
@@ -58,7 +58,7 @@ features:
 
 传统文件管理器只能"手动操作"——长按、选择、新建文件夹、移动。素流 (PureFlow) 率先将 AI Agent 引入文件管理领域，让你用自然语言直接下达指令，Agent 自动理解、规划、执行。
 
-<div style="max-width: 720px; margin: 1.5rem auto;">
+<div class="agent-demo">
 
 **你说：**
 
@@ -76,31 +76,26 @@ features:
 
 ### Agent 能做什么？
 
-<div style="max-width: 720px; margin: 0 auto;">
-
-| 场景 | 示例指令 |
-| :--- | :--- |
-| 🔍 智能搜索 | "找出所有和猫有关的图片" |
-| 📂 批量整理 | "把最近一个月的照片按主题分类" |
-| 🧹 空间清理 | "哪些文件超过 500MB 且半年没打开过？" |
-| 📊 存储分析 | "分析一下哪些文件夹占空间最多" |
-| 🗂️ 去重归档 | "找出重复的截图，只保留最清晰的那张" |
-| 💡 更多可能 | 取决于你的想象力——用自然语言描述需求，Agent 帮你实现 |
-
-</div>
+<table class="center-table">
+<thead><tr><th>场景</th><th>示例指令</th></tr></thead>
+<tbody>
+<tr><td>🔍 智能搜索</td><td>"找出所有和猫有关的图片"</td></tr>
+<tr><td>📂 批量整理</td><td>"把最近一个月的照片按主题分类"</td></tr>
+<tr><td>🧹 空间清理</td><td>"哪些文件超过 500MB 且半年没打开过？"</td></tr>
+<tr><td>📊 存储分析</td><td>"分析一下哪些文件夹占空间最多"</td></tr>
+<tr><td>🗂️ 去重归档</td><td>"找出重复的截图，只保留最清晰的那张"</td></tr>
+<tr><td>💡 更多可能</td><td>取决于你的想象力——用自然语言描述需求，Agent 帮你实现</td></tr>
+</tbody>
+</table>
 
 ### 端云协作，安全可控
-
-<div style="max-width: 720px; margin: 0 auto;">
 
 - **云端大脑**：大语言模型理解你的意图，规划执行步骤（通过 BYOK 模式，数据不经中转）
 - **端侧肌肉**：原生代码在本地执行文件操作，文件内容绝不上传
 - **人在回路**：所有破坏性操作（删除、移动）必须经你确认后才会执行
 
-</div>
-
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="/guide/pro" style="display: inline-block; padding: 0.6rem 1.5rem; background: var(--vp-c-brand-1); color: white; border-radius: 8px; text-decoration: none; font-weight: 500;">了解 Agent 完整能力 →</a>
+<div class="cta-button">
+  <a href="/guide/pro" class="brand-btn">了解 Agent 完整能力 →</a>
 </div>
 
 ---
@@ -117,13 +112,10 @@ features:
 
 ---
 
-<div style="max-width: 640px; margin: 2rem auto; padding: 2rem 1rem;">
-  <h2 style="text-align: center;">💡 品牌理念</h2>
-  <h3 style="text-align: center; margin-top: 1rem;">素流 · 资产有灵</h3>
-  <p style="opacity: 0.85; line-height: 1.8; margin-top: 1.5rem;">
-    <b>"素"</b>代表纯净、克制——回归文件管理的本源，不收集一份数据，不推送一条广告。
-  </p>
-  <p style="opacity: 0.85; line-height: 1.8;">
-    <b>"流"</b>代表高效、流转——数据在端侧 AI 调度下如行云流水，从"找文件"升级为"提问题"，从"整理文件"升级为"下指令"。
-  </p>
-</div>
+## 💡 品牌理念
+
+### 素流 · 资产有灵
+
+**"素"** 代表纯净、克制——回归文件管理的本源，不收集一份数据，不推送一条广告。
+
+**"流"** 代表高效、流转——数据在端侧模型 + AI大脑调度下如行云流水，从"找文件"升级为"提问题"，从"整理文件"升级为"下指令"。
