@@ -22,7 +22,7 @@ head:
 
 国内用户可通过 GitHub Release 加速链接下载最新版本 APK：
 
-👉 [下载最新版 APK（国内加速）](https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-release.apk)
+👉 [下载最新版 APK（国内加速）](https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-china-release.apk)
 
 下载完成后，请参阅 [安装说明](/guide/install) 了解安装步骤和权限说明。
 
