@@ -123,11 +123,20 @@
 .demo-section .demo-video {
   max-width: 100%;
   width: 720px;
+  height: 405px;
   border-radius: 12px;
   margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .demo-section .demo-video {
+    width: 100%;
+    height: 56.25vw;
+  }
 }
 
 /* Agent 演示对话框 - 需要高优先级覆盖全局居中 */

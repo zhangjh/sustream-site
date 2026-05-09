@@ -48,10 +48,7 @@ features:
     <img src="/智能清理.webp" alt="智能清理" />
   </div>
   <p class="caption">主界面 · 语义搜索 · AI 助理 · 智能清理</p>
-  <video controls class="demo-video">
-    <source src="https://your-video-url.com/demo.mp4" type="video/mp4">
-    你的浏览器不支持视频播放，请<a href="https://your-video-url.com/demo.mp4">点击下载</a>观看。
-  </video>
+  <iframe class="demo-video" src="//player.bilibili.com/player.html?bvid=BV1FgRZBPExS&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 ## 🤖 业界首个文件管理 AI Agent
