@@ -8,6 +8,20 @@ export default defineConfig({
   lang: "zh-CN",
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
+    // 51.la 站点统计
+    [
+      "script",
+      {
+        charset: "UTF-8",
+        id: "LA_COLLECT",
+        src: "//sdk.51.la/js-sdk-pro.min.js",
+      },
+    ],
+    [
+      "script",
+      {},
+      'LA.init({id:"LBgHc5k7b4XcINBe",ck:"LBgHc5k7b4XcINBe",autoTrack:true})',
+    ],
     // Open Graph
     [
       "meta",

@@ -16,13 +16,13 @@ head:
 
 如果你可以访问 Google Play，推荐通过官方商店下载，享受自动更新：
 
-👉 [前往 Google Play 下载](https://play.google.com/store/apps/details?id=cn.zhangjh.sustream)
+👉 <a href="https://play.google.com/store/apps/details?id=cn.zhangjh.sustream" target="_blank" onclick="LA.track('download_google');">前往 Google Play 下载</a>
 
 ### GitHub Release（国内用户推荐）
 
 国内用户可通过 GitHub Release 加速链接下载最新版本 APK：
 
-👉 [下载最新版 APK（国内加速）](https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-china-release.apk)
+👉 <a href="https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-china-release.apk" onclick="LA.track('download_github');">下载最新版 APK（国内加速）</a>
 
 下载完成后，请参阅 [安装说明](/guide/install) 了解安装步骤和权限说明。
 
