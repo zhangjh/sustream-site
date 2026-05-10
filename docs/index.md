@@ -5,6 +5,9 @@ head:
   - - link
     - rel: canonical
       href: https://sustream.zhangjh.cn/
+  - - meta
+    - name: keywords
+      content: "素流, PureFlow, Android文件管理器, AI文件管家, 端侧AI, 语义搜索, 对话式文件管理, 零广告, 隐私保护, AI Agent, 智能清理, 数字外脑, ES文件浏览器替代, 无广告文件管理器"
 
 hero:
   name: "素流 PureFlow"
