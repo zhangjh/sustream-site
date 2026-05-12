@@ -18,17 +18,17 @@ head:
 
 👉 <a href="https://play.google.com/store/apps/details?id=cn.zhangjh.sustream" target="_blank" onclick="LA.track('download_google');">前往 Google Play 下载</a>
 
-### GitHub Release（国内用户推荐）
+### 直接下载（国内用户推荐）
 
-国内用户可通过 GitHub Release 加速链接下载最新版本 APK：
+国内用户推荐通过 CDN 直链下载最新版本 APK：
 
-👉 <a href="https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-china-release.apk" onclick="LA.track('download_github');">下载最新版 APK（国内加速）</a>
+👉 <a href="https://r2.zhangjh.cn/sustream/SuStream-latest.apk" onclick="LA.track('download_r2');">下载最新版 APK（CDN 直链）</a>
 
-### 网盘下载（备用）
+### GitHub Release（备用）
 
-下载太慢？试试网盘，保存后随时下载：
+也可通过 GitHub Release 加速链接下载：
 
-👉 <a href="https://pan.baidu.com/s/1gUOmrEBO-lOB3npolm40SQ?pwd=ak7r" target="_blank" onclick="LA.track('download_baidu');">百度网盘</a> ｜ <a href="https://pan.quark.cn/s/b255a4a898b5" target="_blank" onclick="LA.track('download_quark');">夸克网盘</a>
+👉 <a href="https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-china-release.apk" onclick="LA.track('download_github');">下载最新版 APK（GitHub 加速）</a>
 
 下载完成后，请参阅 [安装说明](/guide/install) 了解安装步骤和权限说明。
 
