@@ -24,6 +24,12 @@ head:
 
 👉 <a href="https://gh-proxy.org/https://github.com/zhangjh/sustream-site/releases/latest/download/app-china-release.apk" onclick="LA.track('download_github');">下载最新版 APK（国内加速）</a>
 
+### 网盘下载（备用）
+
+下载太慢？试试网盘，保存后随时下载：
+
+👉 <a href="https://pan.baidu.com/s/1gUOmrEBO-lOB3npolm40SQ?pwd=ak7r" target="_blank" onclick="LA.track('download_baidu');">百度网盘</a> ｜ <a href="https://pan.quark.cn/s/b255a4a898b5" target="_blank" onclick="LA.track('download_quark');">夸克网盘</a>
+
 下载完成后，请参阅 [安装说明](/guide/install) 了解安装步骤和权限说明。
 
 ## Pro 版升级
