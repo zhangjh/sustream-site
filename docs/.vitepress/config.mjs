@@ -143,6 +143,7 @@ export default defineConfig({
   ],
   sitemap: {
     hostname: "https://sustream.zhangjh.cn",
+    transformItems: (items) => items.filter((item) => !item.url.includes("admin")),
   },
   themeConfig: {
     search: {
