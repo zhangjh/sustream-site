@@ -123,11 +123,20 @@
 .demo-section .demo-video {
   max-width: 100%;
   width: 720px;
+  height: 405px;
   border-radius: 12px;
   margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .demo-section .demo-video {
+    width: 100%;
+    height: 56.25vw;
+  }
 }
 
 /* Agent 演示对话框 - 需要高优先级覆盖全局居中 */
@@ -221,6 +230,33 @@
   justify-content: center;
 }
 
+.is-home .vp-doc a.product-card,
+.vp-doc a.product-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  text-decoration: none !important;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  min-width: 260px;
+  flex: 1;
+  max-width: 400px;
+  font-weight: normal;
+  background-color: var(--vp-c-bg-soft);
+}
+
+.is-home .vp-doc a.product-card:hover,
+.vp-doc a.product-card:hover {
+  text-decoration: none !important;
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+  color: inherit;
+}
+
 .product-card {
   display: flex;
   align-items: center;
@@ -234,17 +270,16 @@
   min-width: 260px;
   flex: 1;
   max-width: 400px;
-}
-
-.product-card:hover {
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-  transform: translateY(-2px);
+  background-color: var(--vp-c-bg-soft);
 }
 
 .product-card--coming {
-  opacity: 0.6;
   cursor: default;
+}
+
+.product-card--coming .product-icon,
+.product-card--coming .product-info {
+  opacity: 0.6;
 }
 
 .product-card--coming:hover {
@@ -271,21 +306,30 @@
   text-align: left;
 }
 
+.is-home .vp-doc .product-info h4,
 .product-info h4 {
-  margin: 0 0 0.25rem;
-  font-size: 1rem;
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  text-align: left;
 }
 
+.is-home .vp-doc .product-info p,
 .product-info p {
   margin: 0;
   font-size: 0.85rem;
-  opacity: 0.7;
+  opacity: 0.6;
+  font-weight: 400;
+  color: var(--vp-c-text-2);
+  text-align: left;
 }
 
 .product-arrow {
   font-size: 1.2rem;
-  opacity: 0.5;
+  opacity: 0.4;
   flex-shrink: 0;
+  color: var(--vp-c-brand-1);
 }
 
 @media (max-width: 768px) {
@@ -294,7 +338,9 @@
     align-items: stretch;
   }
 
-  .product-card {
+  .product-card,
+  .is-home .vp-doc a.product-card,
+  .vp-doc a.product-card {
     max-width: none;
   }
 }

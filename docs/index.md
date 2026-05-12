@@ -5,6 +5,9 @@ head:
   - - link
     - rel: canonical
       href: https://sustream.zhangjh.cn/
+  - - meta
+    - name: keywords
+      content: "素流, PureFlow, Android文件管理器, AI文件管家, 端侧AI, 语义搜索, 对话式文件管理, 零广告, 隐私保护, AI Agent, 智能清理, 数字外脑, ES文件浏览器替代, 无广告文件管理器"
 
 hero:
   name: "素流 PureFlow"
@@ -48,10 +51,7 @@ features:
     <img src="/智能清理.webp" alt="智能清理" />
   </div>
   <p class="caption">主界面 · 语义搜索 · AI 助理 · 智能清理</p>
-  <video controls class="demo-video">
-    <source src="https://your-video-url.com/demo.mp4" type="video/mp4">
-    你的浏览器不支持视频播放，请<a href="https://your-video-url.com/demo.mp4">点击下载</a>观看。
-  </video>
+  <iframe class="demo-video" src="//player.bilibili.com/player.html?bvid=BV1FgRZBPExS&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 ## 🤖 业界首个文件管理 AI Agent
