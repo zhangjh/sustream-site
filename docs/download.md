@@ -12,6 +12,8 @@ head:
 
 ## 下载渠道
 
+<LatestRelease />
+
 ### Google Play（海外用户推荐）
 
 如果你可以访问 Google Play，推荐通过官方商店下载，享受自动更新：
