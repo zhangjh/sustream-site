@@ -38,6 +38,7 @@ function getSavedKey() {
 
 // 删除
 const deleting = ref(new Set())
+const resetting = ref(new Set())
 
 async function handleDelete(code) {
   if (!confirm(`确认将激活码 ${code} 置为无效？`)) return
@@ -67,6 +68,37 @@ async function handleDelete(code) {
     alert(`网络错误: ${e.message}`)
   } finally {
     deleting.value.delete(code)
+  }
+}
+
+async function handleReset(code) {
+  if (!confirm(`确认解除激活码 ${code} 的设备绑定并恢复为未使用？`)) return
+
+  const key = getSavedKey()
+  if (!key) return
+
+  resetting.value.add(code)
+  try {
+    const res = await fetch(`${ACTIVATION_API_URL}/admin/reset`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Admin-Key': key,
+      },
+      body: JSON.stringify({ code }),
+    })
+
+    if (!res.ok) {
+      const data = await res.json().catch(() => ({}))
+      alert(`重置失败: ${data.message || res.status}`)
+      return
+    }
+
+    await fetchData()
+  } catch (e) {
+    alert(`网络错误: ${e.message}`)
+  } finally {
+    resetting.value.delete(code)
   }
 }
 
@@ -317,15 +349,25 @@ onMounted(() => {
             <td>{{ formatTime(item.activatedAt) }}</td>
             <td class="fingerprint-cell">{{ item.deviceFingerprint || '-' }}</td>
             <td>
-              <button
-                v-if="item.status !== 'revoked'"
-                class="delete-btn"
-                :disabled="deleting.has(item.code)"
-                @click="handleDelete(item.code)"
-              >
-                {{ deleting.has(item.code) ? '...' : '置为无效' }}
-              </button>
-              <span v-else class="revoked-text">-</span>
+              <div class="action-buttons">
+                <button
+                  v-if="item.status === 'used'"
+                  class="reset-btn"
+                  :disabled="resetting.has(item.code) || deleting.has(item.code)"
+                  @click="handleReset(item.code)"
+                >
+                  {{ resetting.has(item.code) ? '...' : '重置' }}
+                </button>
+                <button
+                  v-if="item.status !== 'revoked'"
+                  class="delete-btn"
+                  :disabled="deleting.has(item.code) || resetting.has(item.code)"
+                  @click="handleDelete(item.code)"
+                >
+                  {{ deleting.has(item.code) ? '...' : '置为无效' }}
+                </button>
+                <span v-else class="revoked-text">-</span>
+              </div>
             </td>
           </tr>
           <tr v-if="codes.length === 0 && !loading">
@@ -630,19 +672,40 @@ onMounted(() => {
   padding: 2rem !important;
 }
 
+.action-buttons {
+  display: flex;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.reset-btn,
 .delete-btn {
   padding: 0.2rem 0.5rem;
-  border: 1px solid var(--vp-c-danger-1, #e53e3e);
   border-radius: 4px;
   background: none;
-  color: var(--vp-c-danger-1, #e53e3e);
   cursor: pointer;
   font-size: 0.75rem;
 }
 
+.reset-btn {
+  border: 1px solid var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.delete-btn {
+  border: 1px solid var(--vp-c-danger-1, #e53e3e);
+  color: var(--vp-c-danger-1, #e53e3e);
+}
+
+.reset-btn:disabled,
 .delete-btn:disabled {
   opacity: 0.4;
   cursor: not-allowed;
+}
+
+.reset-btn:not(:disabled):hover {
+  background: var(--vp-c-brand-1);
+  color: white;
 }
 
 .delete-btn:not(:disabled):hover {
