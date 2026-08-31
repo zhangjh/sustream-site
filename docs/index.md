@@ -158,11 +158,16 @@ features:
     </div>
     <span class="product-arrow">→</span>
   </a>
-  <div class="product-card product-card--coming">
-    <div class="product-icon">🔮</div>
+  <a href="https://verse-site.zhangjh.cn" target="_blank" rel="noreferrer" class="product-card">
+    <img src="/verse_logo.png" alt="素章 Verse" class="product-logo" />
     <div class="product-info">
-      <h4>更多产品</h4>
-      <p>敬请期待...</p>
+      <h4>素章 Verse</h4>
+      <p>随时记录，随手成文</p>
     </div>
-  </div>
+    <span class="product-arrow">→</span>
+  </a>
+</div>
+
+<div style="text-align: center; margin: 0.25rem 0 2rem;">
+  <a href="https://zhangjh.cn#works" target="_blank" rel="noreferrer" style="color: var(--vp-c-brand-1); text-decoration: none; font-size: 0.95em; border-bottom: 1px dashed var(--vp-c-brand-1); padding-bottom: 2px;">更多作品 →</a>
 </div>

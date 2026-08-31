@@ -212,7 +212,7 @@ export default defineConfig({
     ],
     footer: {
       message: "为追求纯净与效率的你而生 ❤️",
-      copyright: "Copyright © 2026 素流 PureFlow",
+      copyright: "Copyright © 2026 素流 PureFlow<br>Built by ZhangJH · <a href='https://zhangjh.cn' target='_blank' rel='noreferrer'>访问个人主页 →</a>",
     },
     docFooter: {
       prev: "上一页",
